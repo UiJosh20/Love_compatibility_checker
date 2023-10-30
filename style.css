@@ -8,10 +8,12 @@
   margin-top: 20px;
 }
 h1{
+  color: rgb(170, 6, 74) !important;
   text-align: center;
   margin-top: 30px !important;
   font-family: 'Carry You', sans-serif;
   font-size: 93px;
+  text-decoration: underline;
 }
 .alertdanger{
   background-color: rgb(250, 58, 58);
@@ -19,7 +21,22 @@ h1{
   font-size: 20px;
 }
 body{
-  background-image: linear-gradient(rgba(255, 17, 128, 0.1),rgba(20,20,20,0.1)), url(images/pink-abstract-background-wallpaper-macbook.jpg);
+  background-image: linear-gradient(rgba(255, 39, 140, 0.479),rgba(255,39,140,0.1)), url(images/pink-abstract-background-wallpaper-macbook.jpg);
+}
+
+.bgsuccess{
+  background-color: #ff00b3;
+}
+
+.congrats{
+  color: lawngreen!important;
+  background-color: black;
+  padding: 10px;
+}
+.extraLg{
+  font-size: 100px;
+  font-family: 'Carry You', sans-serif;
+
 }
 
 @media screen and (max-width: 475px) {
@@ -28,4 +45,11 @@ body{
     margin-left: 0px !important;
     margin-top: 70px !important;
   }
+
+  .bgsuccess{
+    background-color: #ff00b3;
+  }
+  
+ 
+
 }
