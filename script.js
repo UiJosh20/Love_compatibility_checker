@@ -1,5 +1,4 @@
-  let pass = new Audio("./sounds/soft.mp3")
-  pass.play();
+
   
   display.style.display = "none"
   displayCompat.style.display = "none"
